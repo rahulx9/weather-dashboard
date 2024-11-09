@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Data - Indian Cities</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Weather Information - Indian Cities</h1>
+        
+        <div class="search">
+            <label for="citySearch">Search by City Name: </label>
+            <input type="text" id="citySearch" placeholder="Enter city name..." oninput="searchWeather()" />
+        </div>
+        
+        <div id="weather-container"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
